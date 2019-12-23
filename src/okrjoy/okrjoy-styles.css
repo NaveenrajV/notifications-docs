@@ -12,6 +12,7 @@ a {
 .okrjoy-notification-icon img {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
 .okrjoy-notification-count {
