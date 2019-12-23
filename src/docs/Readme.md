@@ -3,7 +3,8 @@ name: Readme
 route: /readme
 ---
 
-import demo from "./notification_demo.gif"
+import demo from "./default.gif"
+import okrj from "./okrjoy.gif"
 
 # cb-react-notifications
 
@@ -12,7 +13,16 @@ import demo from "./notification_demo.gif"
 
 [![NPM](https://img.shields.io/npm/v/cb-react-notifications.svg)](https://www.npmjs.com/package/cb-react-notifications) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<center><img src={demo} height="320px"/></center>
+<div style={{display:'flex',justifyContent:'space-around'}}>
+    <div>
+        <div style={{textAlign:"center"}}>Default</div>
+        <img src={demo} height="320px"/>
+    </div>
+    <div>
+        <div style={{textAlign:"center"}}>Customized</div>
+        <img src={okrj} height="320px"/>
+    </div>
+</div>
 
 ## Getting Started
 
